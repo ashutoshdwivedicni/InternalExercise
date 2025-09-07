@@ -1,13 +1,13 @@
-Operand1=int(input("Enter the Operand-1 Value:")
-Operand2=int(input("Enter the Operand-2 Value:")
+Operand1=int(input("Enter the Operand-1 Value:"))
+Operand2=int(input("Enter the Operand-2 Value:"))
 Operator=input("Enter the Operator +,-,*,/:")
-If Operator==+:
+if Operator=="+":
   print(Operand1+Operand2)
-Elif Operator==-:
+elif Operator=="-":
   print(Operand1-Operand2)
-Elif Operator==*:
+elif Operator=="*":
   print(Operand1*Operand2)
-  Elif Operator==/:
+elif Operator=="/":
   print(Operand1/Operand2)
 else:
-print("None")
+ print("None")
